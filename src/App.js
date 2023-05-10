@@ -3,6 +3,7 @@ import SignIn from './pages/signin';
 import SignUp from './pages/signup';
 import Forgot from './pages/forgot';
 import Videos from './pages/main/Videos';
+import Live from './pages/main/Live';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         <Route path = "/signin" element = {<SignIn/>} />
         <Route path = "/signup" element = {<SignUp />} />
         <Route path = "/videos" element = {<Videos/>}/>
+        <Route path = "/live" element = {<Live/>}/>
       </Routes>
     </div>
   );
